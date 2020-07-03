@@ -12,24 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Muli:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <!-- Hotjar Tracking Code for https://prismaconsultoria.netlify.app/ -->
-    <meta charset="UTF-8">
-    <title>Prisma - Popup</title>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript">
-        bioEp.init({
-           html: '<div id="bio_ep_content">' +
-                      '<img src="/assets/Prisma_logo_branco.png" alt="Conteúdo Grátis!" />' +
-                      '<span>Conteúdo Grátis!</span>' +
-                        '<span>Como aprender a desenvolver sistemas em PHP</span>' +
+    <script type="text/javascript" src="js/bioep.js"></script>
+        <script type="text/javascript">
+            bioEp.init({
+                html: '<div id="bio_ep_content">' +
                         '<span></span>' +
-                        '<a href=""document.getElementById('cardDois').scrollIntoView();"" class="bio_btn">CLIQUE AQUI</a>' +
+                        '<span>Cadastre-se em nossa newsletter!</span>' +
+                        '<span>Receba dicas diretamente no seu e-mail</span>' +
+                        '<span>Fique por dentro das novidades</span>' +
+						'<span><form method="POST" action="https://smtl.gama.academy/leads/bfeee313-b7e1-11ea-8228-89cff86db9a0"><input id="nameForm"name="name" type="text" placeholder="Digite seu nome" title="Digite seu nome completo" required/> <input id="emailForm" name="email" type="email" placeholder="Digite seu email" title="Digite um email válido" required/> <input name="redirectTo" type="hidden" value="https://prismaconsultoriaonline-tks.netlify.app"></span>' +
+						'<span><input class="bio_btn" type="submit" value="CADASTRAR E-MAIL"></span></form>' +
                         '</div>',
-                css: '#bio_ep {width: 400px; height: 300px; color: #E2DFDF; background-color: #8943E8; text-align: center;}' +
+                css: '#bio_ep {width: 400px; height: 300px; color: #fff; background-color: #8943E8; text-align: center;}' +
                         '#bio_ep_content {padding: 24px 0 0 0; font-family: "Titillium Web";}' +
-                        '#bio_ep_content span:nth-child(2) {display: block; color: #E2DFDF; font-size: 32px; font-weight: 600;}' +
-                        '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px;}' +
-                        '#bio_ep_content span:nth-child(4) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600;}' +
-                        '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 7px; color: #E2DFDF; font-size: 14px; font-weight: 600; background-color: #70bb39; border: 1px solid #47ad0b; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
+                        '#bio_ep_content span:nth-child(2) {display: block; color: #fff; font-size: 24px; font-weight: 600;}' +
+                        '#bio_ep_content span:nth-child(3) {display: block; font-size: 16px; padding-top: 15px;}' +
+						'#bio_ep_content span:nth-child(4) {display: block; font-size: 16px;}' +
+                        '#bio_ep_content span:nth-child(5) {display: block; margin: -5px 0 0 0; font-size: 16px; font-weight: 600; padding-top:20px;}' +
+                        '.bio_btn {display: inline-block; margin: 18px 0 0 0; padding: 7px; color: #fff; font-size: 14px; font-weight: 600; background-color: #70bb39; border: 1px solid #47ad0b; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; border-radius: 0; text-decoration: none;}',
                 fonts: ['//fonts.googleapis.com/css?family=Titillium+Web:300,400,600'],
                 cookieExp: 0
             });
